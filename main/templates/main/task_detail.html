@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block title %}Detail{% endblock %}
+
+{% block content %}
+
+<div class="header-bar">
+    <a href="{% url 'taskList' %}">&#8592; Back</a>
+</div>
+<div class="card-body">
+    <h2>Task Name: {{detail.title}}</h2>
+    <p>Description: {{detail.description}}</p>
+    <p>Status: {{detail.complete}}</p>
+    <p>Date: {{detail.create_date}}</p>
+</div>
+{% endblock %}
