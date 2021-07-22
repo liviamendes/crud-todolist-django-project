@@ -4,6 +4,7 @@ TO DO LIST - DJANGO PROJECT
 </h1>
 
 <p align="center">The project consists of a web platform where you can have access to a to do list where a user can register, login/logout and perform task insertions, mark them as done, update, view and delete.</p>
+<p align="center"> You can see the project: [Click here.](https://todolist-liviaproject.herokuapp.com/login/?next=/)   </p>
 
 <p align="center">
   <a href="https://github.com/liviamendes/crud-todolist-django-project/blob/main/LICENSE">
